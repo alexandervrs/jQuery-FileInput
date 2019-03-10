@@ -1,0 +1,55 @@
+
+.uploader {
+	display: block;
+	position: relative;
+	margin: 0 0 5px 0;
+	width: 100%;
+	min-width: 100px;
+	height: 40px;
+	font: normal 1em/1 'Segoe UI', 'Arial', 'Helvetica', sans-serif;
+	cursor: default;
+}
+
+.uploader .filename {
+	display: block;
+	float: left;
+	padding: 13px 0 0 5px;
+	border: 1px solid #ddd;
+	width: 83%;
+	height: 100%;
+	background: #fafafa;
+	color: #464646;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.uploader .filename-hover {
+	border: 1px solid #bbb;
+}
+
+.uploader .filename-disabled {
+	border: 1px solid #eee;
+	color: #ccc;
+}
+
+.uploader .browse {
+	display: block;
+	float: right;
+	padding: 13px 0 0 0;
+	width: 17%;
+	height: 100%;
+	background: #0d0d0d url('images/button.png') no-repeat top center;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+.uploader .browse-hover {
+	background: #006cff url('images/button-focus.png') no-repeat top center;
+}
+
+.uploader .browse-disabled {
+	background: #717171 url('images/button-disabled.png') no-repeat top center;
+}
